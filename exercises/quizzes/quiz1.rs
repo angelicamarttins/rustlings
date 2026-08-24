@@ -13,7 +13,17 @@
 // fn calculate_price_of_apples(???) -> ??? { ??? }
 
 fn main() {
-    // You can optionally experiment here.
+    let res = calculate_price_of_apples(35);
+
+    println!("{res}")
+}
+
+fn calculate_price_of_apples(apples: i32) -> i32 {
+    if apples > 40 {
+        apples
+    } else {
+        apples * 2
+    }
 }
 
 // Don't change the tests!
